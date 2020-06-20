@@ -1,4 +1,4 @@
-@media all and (max-width: 990px){
+@media all and (max-width: 991px){
 	.offers__info{
 		display: none;
 	}
@@ -20,8 +20,18 @@
 		-o-flex-wrap: wrap;
 		flex-wrap: wrap;
 	}
+	.nav img{
+		width: 150px;
+	}
+	.nav a{
+		font-size: 15px;
+		white-space: nowrap;
+	}
 }
 @media all and (max-width: 800px) {
+	.container{
+		max-width: initial;
+	}
 	.navbar{
 		display: none;
 	}
@@ -29,12 +39,6 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	.info__text{
-		font-weight: 700;
-	}
-
-
-
 }
 @media all and (max-width: 768px) {
 	.footer nav{
@@ -50,10 +54,38 @@
 	.offers__item_btn{
 		flex-wrap: wrap;
 	}
-	.offers__mob_info{
-		flex-direction: column;
-	}
 		.footer__nav{
 	flex-direction: row;
+}
+.offers__item_text{
+	text-align: center;
+}
+.offers__item_img{
+		padding-bottom: 60%;
+	}
+
+}
+@media all and (max-width: 580px){
+	.credit__info_title{
+		display: none;
+	}
+	
+
+	.credit_mobile{
+		display: flex;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+
+}
+@media all and (max-width: 430px) {
+	.offers__mob_info{
+	flex-direction: column;
+}
+.footer__nav{
+	flex-direction: column;
 }
 }
