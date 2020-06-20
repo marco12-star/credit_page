@@ -98,12 +98,13 @@ a:not([href]):not([tabindex]){
  display: flex;
  -ms-align-items: center;
  align-items: center;
- margin: 1em;
+ margin: 0 20px;
  border-bottom: 1px solid #fff;
  color: #8AC44B;
  text-decoration: none;
  transition: all 0.3s;
-} 
+ white-space: nowrap;
+}
 .dws-menu li a:hover{
  border-bottom: 1px solid #8AC44B;
 }
@@ -561,8 +562,4 @@ ul li {
 
 .footer .footer__nav ul li{
 	margin: 1px 0;
-}
-
-[type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: none;
 }
