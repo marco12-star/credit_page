@@ -562,3 +562,7 @@ ul li {
 .footer .footer__nav ul li{
 	margin: 1px 0;
 }
+
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: none;
+}
