@@ -31,6 +31,9 @@
 		width: 165px;
 		font-size: 16px;
 	}
+	.dws-menu > ul li a{
+		margin: 0 10px;
+	}
 }
 @media all and (max-width: 800px) {
 	.container{
@@ -74,8 +77,6 @@
 	.credit__info_title{
 		display: none;
 	}
-	
-
 	.credit_mobile{
 		display: flex;
 		-webkit-flex-direction: column;
