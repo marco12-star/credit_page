@@ -30,6 +30,7 @@ li{
 }
 
 .navbar-light .navbar-nav .nav-link{
+	padding: 5px 0;
 	color: #8AC44B;
 }
 
@@ -40,6 +41,10 @@ li{
 
 .navbar{
 	padding: 1.5rem 0;
+}
+
+.navbar li{
+	margin: 0;
 }
 
 a{
@@ -54,7 +59,15 @@ a:hover{
 }
 
 a:not([href]):not([tabindex]){
-	padding: 15px 0;
+	padding: 5px 0;
+}
+
+.btn i{
+	padding-left: 5px;
+}
+
+.dropdown-menu {
+	border: none;
 }
 
 .btn{
@@ -167,6 +180,10 @@ a:not([href]):not([tabindex]){
 
 .credit__text{
 	font-weight: 700;
+}
+
+.credit_mobile{
+	display: none;
 }
 
 .offers_desk .credit__title{
@@ -526,6 +543,7 @@ ul li {
 
 
 .footer a{
+	margin: 2rem 0;
 	color: #fff;
 	text-decoration-color: #fff;
 	white-space: nowrap;
@@ -542,5 +560,5 @@ ul li {
 }
 
 .footer .footer__nav ul li{
-	margin: 10px 0;
+	margin: 1px 0;
 }
